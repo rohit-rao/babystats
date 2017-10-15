@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">BabyStats</string>
+
+    <string name="main_diapers_button">Diapers</string>
+    <string name="main_food_button">Food</string>
+    <string name="main_sleep_button">Sleep</string>
+    <string name="title_activity_diapers_list">DiapersListActivity</string>
+    <string name="title_activity_food_list">FoodListActivity</string>
+    <string name="title_activity_sleep_list">SleepListActivity</string>
 </resources>

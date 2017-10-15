@@ -16,6 +16,33 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DiapersListActivity"
+            android:label="@string/title_activity_diapers_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.raogers.babystats.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FoodListActivity"
+            android:label="@string/title_activity_food_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.raogers.babystats.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SleepListActivity"
+            android:label="@string/title_activity_sleep_list"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.raogers.babystats.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
