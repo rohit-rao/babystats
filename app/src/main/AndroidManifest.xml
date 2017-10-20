@@ -52,6 +52,24 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.raogers.babystats.DiapersListActivity" />
         </activity>
+        <activity
+            android:name=".FoodEditActivity"
+            android:label="@string/title_activity_food_edit"
+            android:parentActivityName=".FoodListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.raogers.babystats.FoodListActivity" />
+        </activity>
+        <activity
+            android:name=".SleepEditActivity"
+            android:label="@string/title_activity_sleep_edit"
+            android:parentActivityName=".SleepListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.raogers.babystats.SleepListActivity" />
+        </activity>
     </application>
 
 </manifest>

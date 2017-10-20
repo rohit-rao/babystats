@@ -8,4 +8,6 @@
     <string name="title_activity_food_list">FoodListActivity</string>
     <string name="title_activity_sleep_list">SleepListActivity</string>
     <string name="title_activity_diaper_edit">DiaperEditActivity</string>
+    <string name="title_activity_food_edit">FoodEditActivity</string>
+    <string name="title_activity_sleep_edit">SleepEditActivity</string>
 </resources>

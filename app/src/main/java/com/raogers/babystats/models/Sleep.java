@@ -5,15 +5,14 @@ import com.google.firebase.database.Exclude;
 import java.util.GregorianCalendar;
 
 public class Sleep {
-    public static long END_TIME_UNSET = -1L;
 
     public Long startTimeInNegativeMillis;
-    public Long endTimeInMillis;
+    public Long durationInMillis;
     public String comments;
 
     public Sleep() {
         startTimeInNegativeMillis = -1 * GregorianCalendar.getInstance().getTimeInMillis();
-        endTimeInMillis = END_TIME_UNSET;
+        durationInMillis = 0L;
         comments = "";
     }
 
