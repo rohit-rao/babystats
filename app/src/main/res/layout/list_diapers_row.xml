@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:background="@android:color/holo_green_dark"
+        android:id="@+id/list_diapers_sectionheader"
+        android:paddingLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:id="@+id/list_diapers_date"
+        android:paddingLeft="10dp"
+        android:layout_alignBottom="@+id/list_diapers_time"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/list_diapers_time"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/list_diapers_sectionheader"
+        android:layout_alignParentRight="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poop"
+        android:clickable="false"
+        android:id="@+id/list_diapers_poop"
+        android:paddingRight="20dp"
+        android:layout_below="@+id/list_diapers_date"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pee"
+        android:clickable="false"
+        android:id="@+id/list_diapers_pee"
+        android:paddingRight="20dp"
+        android:layout_alignBottom="@+id/list_diapers_poop"
+        android:layout_below="@+id/list_diapers_date"
+        android:layout_toRightOf="@+id/list_diapers_poop"
+        android:layout_toEndOf="@+id/list_diapers_poop"
+        android:checked="false" />
+
+    <TextView
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Comments"
+        android:id="@+id/list_diapers_comments"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/list_diapers_poop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

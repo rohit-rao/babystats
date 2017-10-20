@@ -43,6 +43,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.raogers.babystats.MainActivity" />
         </activity>
+        <activity
+            android:name=".DiaperEditActivity"
+            android:label="@string/title_activity_diaper_edit"
+            android:parentActivityName=".DiapersListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.raogers.babystats.DiapersListActivity" />
+        </activity>
     </application>
 
 </manifest>
