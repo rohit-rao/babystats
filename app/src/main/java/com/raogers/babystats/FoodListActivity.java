@@ -74,7 +74,7 @@ public class FoodListActivity extends AppCompatActivity {
         mDatabaseRef = FirebaseDatabase.getInstance().getReference().child("demo").child("food");
 
         // Set up the recycler view.
-        Query query = mDatabaseRef.orderByChild("timeInNegativeMillis");
+        Query query = mDatabaseRef.orderByChild("startTimeInNegativeMillis");
         FirebaseRecyclerOptions<Food> options =
                 new FirebaseRecyclerOptions.Builder<Food>()
                         .setQuery(query, Food.class)

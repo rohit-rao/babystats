@@ -74,7 +74,7 @@ public class SleepListActivity extends AppCompatActivity {
         mDatabaseRef = FirebaseDatabase.getInstance().getReference().child("demo").child("sleep");
 
         // Set up the recycler view.
-        Query query = mDatabaseRef.orderByChild("timeInNegativeMillis");
+        Query query = mDatabaseRef.orderByChild("startTimeInNegativeMillis");
         FirebaseRecyclerOptions<Sleep> options =
                 new FirebaseRecyclerOptions.Builder<Sleep>()
                         .setQuery(query, Sleep.class)
